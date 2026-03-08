@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Для Саши 💗</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="hearts" aria-hidden="true"></div>
+
+<main class="wrap">
+
+<!-- Страница 1 -->
+<section class="card step active" data-step="1">
+<h1 class="title">Привет, Саша 💗</h1>
+<p class="lead">Я сделал это специально для тебя!</p>
+<p class="muted">Нажми кнопку ниже и пройди маленький фото-квиз 💗</p>
+<button class="btn" id="startBtn">Начать →</button>
+</section>
+
+<!-- Страница 2 -->
+<section class="card step" data-step="2">
+<h2 class="title">Наш фото-квиз 📸</h2>
+<p class="muted">Найди все одинаковые пары фотографий</p>
+
+<div class="stats">
+Ходы: <span id="moves">0</span>
+</div>
+
+<div class="photo-grid" id="grid"></div>
+
+<div class="actions">
+<button class="btn" id="finishBtn" disabled>Открыть поздравление →</button>
+</div>
+</section>
+
+<!-- Страница 3 -->
+<section class="card step" data-step="3">
+<h2 class="title">С 8 Марта, Саша 🌷</h2>
+<p class="lead">
+Спасибо тебе за всё, что ты есть в моей жизни.
+</p>
+<p class="muted">
+Я очень ценю тебя, наши моменты и всё, что связано с тобой 💗
+</p>
+
+<div class="actions">
+<button class="btn secondary" id="restartBtn">Пройти ещё раз ↻</button>
+</div>
+</section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
